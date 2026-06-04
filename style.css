@@ -78,3 +78,48 @@ body{
     height: 100%;
     pointer-events: none;
 }
+#hollow{
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    top: 600px;
+    position: absolute;
+}
+#hollow img{
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+#wizards{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 800px;
+    text-decoration: none;
+}
+#wizards img{
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+#a{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top:0;
+}
+#b{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: block;
+    opacity: 0;
+    position:absolute;
+    top:0;
+}
+#c{
+    width
+}
