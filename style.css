@@ -1,7 +1,7 @@
 @import url('https://googleapis.com');
 body{
     background-color: black ;
-    color:rgb(255, 0, 195);
+    color:rgb(234, 11, 126);
     font-family: 'short stack';
 }
 #next{
@@ -12,9 +12,8 @@ body{
     text-align: center;
     font-size: larger;
     position: absolute;
-    margin-left:10px;
     margin-top: 100px;
-    background-color: blueviolet;
+    background-color: rgb(216, 47, 134);
     color: bisque;
     border-radius: 2px;
     border: none;
@@ -25,7 +24,7 @@ body{
     pointer-events: none;
     display: block;
 }
-#main{
+.main{
     position: relative;
 }
 #text{
@@ -36,6 +35,46 @@ body{
     text-align: center;
     font-size: 21px;
     width: 85%;
-    align-items: center;
 
+}
+#ninjago{
+    height: 150px;
+    width: 150px;
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+
+}
+#ninjago img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#sugesstions{
+    flex-direction: column;
+    display: flex;
+}
+#trollhunter{
+    height: 150px;
+    width: 150px;
+    text-decoration: none;
+    top: 200px;;
+    position: absolute;
+}
+#trollhunter img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#carmen{
+    height: 150px;
+    width: 150px;
+    text-decoration: none;
+    top: 400px;
+    position: absolute;
+}
+#carmen img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
