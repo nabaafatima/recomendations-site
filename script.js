@@ -3,6 +3,8 @@ const ninjagoImg = document.getElementById("e");
 const boy = document.querySelector(".boyimg");
 const hollowimg = document.getElementById("a");
 const hollowlink = document.getElementById("hollow");
+const carmenimg = document.getElementById("c");
+const carmenlink = document.getElementById("carmen");
 ninjagoLink.addEventListener("mouseenter", () => {
     ninjagoImg.style.opacity = "1";
     boy.style.opacity = "0";
@@ -19,3 +21,12 @@ hollowlink.addEventListener("mouseleave", () =>{
     hollowimg.style.opacity = "0";
     boy.style.opacity = "1";
 });
+carmenlink.addEventListener("mouseenter" , ()=> {
+    carmenimg.style.opacity = "1";
+    boy.style.opacity = "0";
+});
+carmenlink.addEventListener("mouseleave", ()=>{
+    carmenimg.style.opacity = "0";
+    boy.style.opacity = "1";
+})
+
