@@ -1,3 +1,5 @@
+const wizardsimg = document.getElementById("d");
+const wizardslink = document.getElementById("wizards");
 const ninjagoLink = document.getElementById("ninjago");
 const ninjagoImg = document.getElementById("e");
 const boy = document.querySelector(".boyimg");
@@ -37,5 +39,13 @@ trollhunterlink.addEventListener("mouseenter", ()=>{
 });
 trollhunterlink.addEventListener("mouseleave",()=>{
     trollhunterimg.style.opacity = "0";
+    boy.style.opacity = "1";
+});
+wizardslink.addEventListener("mouseenter", ()=>{
+    wizardsimg.style.opacity = "1";
+    boy.style.opacity = "0";
+});
+wizardslink.addEventListener("mouseleave", ()=>{
+    wizardsimg.style.opacity = "0";
     boy.style.opacity = "1";
 });
