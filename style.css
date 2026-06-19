@@ -191,13 +191,17 @@ body{
     text-decoration: none;
     align-items: center;
 }
-.trailer{
-    background: none;
-    width: 990px;
+.trailer {
+    width: 980px;
     height: 500px;
     position: absolute;
     left: 510px;
-    top:30px;
+    top: 30px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    border: 2px solid rgba(234, 11, 126, 0.5);
+    box-shadow: 0 0 30px rgba(234, 11, 126, 0.3), 0 15px 35px rgba(0, 0, 0, 0.8);
 }
 .design{
     display: flex;
@@ -208,17 +212,30 @@ body{
     height: 100%;
     display: block;
 }
-.text{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    color: black;
-    width: 1000px;
-    resize: none;
-    position:absolute;
-    border: none;
-    height: 500px;
-    top: 760px;
-    left: 1020px;
-    text-align: left;
+.text {
+    position: absolute;
+    top: 750px;
+    left: 1000px;
+    width: 980px;
+    background: rgba(11, 12, 16, 0.85); 
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(234, 11, 126, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.text h1 {
+    font-size: 2.5rem;
+    color: rgb(234, 11, 126);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.text h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
