@@ -239,3 +239,17 @@ body{
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
+.text3{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    width: 960px;
+    background: rgba(11, 12, 16, 0.85); 
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(234, 11, 126, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
