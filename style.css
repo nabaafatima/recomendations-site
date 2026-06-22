@@ -197,7 +197,7 @@ body{
     position: absolute;
     left: 510px;
     top: 30px;
-    border-radius: 16px;
+    border-radius: 50%;
     overflow: hidden;
     background: #000;
     border: 2px solid rgba(234, 11, 126, 0.5);
@@ -252,4 +252,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+.trailer:hover{
+    border-radius: 0px;
 }
